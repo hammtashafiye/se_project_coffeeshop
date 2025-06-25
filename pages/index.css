@@ -111,6 +111,10 @@
 .reservation__title {
   margin-bottom: 0 0 80px;
   text-align: center;
+  background-color: #d9e7ff;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .reservation__form {
