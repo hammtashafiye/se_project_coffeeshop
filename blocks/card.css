@@ -12,11 +12,20 @@
 
 .card__title {
   margin: 0 0 32px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .card__list-item {
   display: flex;
   gap: 10px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
 }
 
 .card__list-divider {

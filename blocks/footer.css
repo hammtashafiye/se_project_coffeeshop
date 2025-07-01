@@ -17,6 +17,10 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__list {
@@ -33,6 +37,11 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+  transition: opacity 0.3s ease;
+}
+
+.footer__social-link:hover {
+  opacity: 0.6;
 }
 
 .footer__social-icon {
@@ -43,4 +52,9 @@
 
 .footer__copyright {
   margin: 108px 0 0;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
 }

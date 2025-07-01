@@ -16,6 +16,15 @@
   margin: 8px 0 32px;
   border: 1px solid #838383;
   border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+}
+
+.form__input::placeholder {
+  color: #838383;
 }
 
 .form__button {
@@ -27,6 +36,10 @@
   background-color: #1878dc;
   color: #fff;
   cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   transition: background-color 0.5s;
 }
 
@@ -44,4 +57,10 @@
   display: flex;
   gap: 12px;
   justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
 }
